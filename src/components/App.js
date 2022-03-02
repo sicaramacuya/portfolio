@@ -3,7 +3,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div id="gigantic-container">
             <div id="left-side-container">
                 <div id="upper-left-container">
                     <div id="personal-info-container">
@@ -114,9 +113,6 @@ function App() {
                 </div>
                 <p id="acknowledgment">Acknowledgments: Website adapted from <a href="https://sarahdayan.dev/">Nicolas Meuzard</a> and <a href="https://philiphugle.de/en/">Philip Hugle</a></p>
             </div>
-            <div id="bottom-section"></div>
-            <div id="upper-section"></div>
-        </div>
     </div>
   );
 }

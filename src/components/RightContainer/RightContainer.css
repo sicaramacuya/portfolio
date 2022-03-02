@@ -8,7 +8,7 @@
   padding-right: 88px;
 }
 
-#projects-clip-board {
+/* #projects-clip-board {
   margin-top: -8px;
   margin-bottom: -8px;
 }
@@ -45,7 +45,7 @@
 
 .project-description {
   margin-top: 8px;
-}
+} */
 
 #skills-clip-board {
   display: flex;
@@ -101,11 +101,6 @@
   margin-bottom: 16px;
   font-size: 12px;
   font-weight: 100;
-}
-
-  #projects {
-  margin-top: -96px;
-  padding-top: 88px;
 }
 
 #skills {

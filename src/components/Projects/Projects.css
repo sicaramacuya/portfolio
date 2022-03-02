@@ -1,0 +1,37 @@
+.Projects {
+    margin-top: -8px;
+}
+  
+.Projects > article {
+    background-color: rgba(218, 215, 208, 0.776);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+  
+.project-articles:hover {
+    opacity: 40%;
+    transition: all .2s ease-in-out;
+}
+  
+.Projects a {
+    display: block;
+    padding: 40px;
+}
+  
+.project-domain {
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  
+.project-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 8px;
+}
+  
+.project-description {
+    margin-top: 8px;
+}

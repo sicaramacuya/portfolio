@@ -1,27 +1,21 @@
 import './RightContainer.css'
+import Projects from '../Projects/Projects.js';
 
 function RightContainer() {
     return (
         <div>
             <div id="right-side-container">
-                <div id="projects">
-                    <div id="projects-clip-board">
-                        <article id="projects-article-1" class="project-articles">
-                            <a class="article-link-selection" href="https://github.com/sicaramacuya/tip-calculator">
-                                <p class="project-domain">HTML 51% | CSS 35% | JavaScipt 14%</p>
-                                <h3 class="project-name">Tip Calculator</h3>
-                                <p class="project-description">An introductory project for learning JavaScript.</p>
-                            </a>
-                        </article>
-                        <article id="projects-article-2" class="project-articles">
-                            <a class="article-link-selection" href="https://github.com/sicaramacuya/chat-bot">
-                                <p class="project-domain">Python 100%</p>
-                                <h3 class="project-name">Chatbot</h3>
-                                <p class="project-description">An introductory project for conditionals, lists and loops.</p>
-                            </a>
-                        </article>
-                    </div>
-                </div>                
+
+                <Projects 
+                titles={['Tip Calculator', 'Chatbot']}
+                descriptions={[
+                'An introductory project for learning JavaScript.',
+                'An introductory project for conditionals, lists and loops.']}
+                domains={[
+                'HTML 51% | CSS 35% | JavaScipt 14%',
+                'Python 100%']}
+                />
+                
                 <div id="skills">
                     <div id="skills-clip-board">
                         <article id="skills-article-1" class="skills-articles">

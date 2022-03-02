@@ -1,5 +1,5 @@
 import LeftContainer from '../LeftContainer/LeftContainer.js';
-import RightContainer from '../RightContaienr/RightContainer.js';
+import RightContainer from '../RightContainer/RightContainer.js';
 
 function Container(props) {
     const {column} = props

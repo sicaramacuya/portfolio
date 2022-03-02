@@ -1,21 +1,13 @@
-h1, h3, p, ul {
-    margin: 0px;
-    color: rgb(21, 21, 21);
-}
-/* h3 -> projects */
-/* ul -> navigator and  bottom-left-container*/
-
-
-h1 {
+.About > h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 1.25;
+    margin: 0px;
+    color: rgb(21, 21, 21);
 }
 
-#parragraph-container {
+.About > p {
     line-height: 2;
-}
-
-#p-1 {
+    margin: 0px;
     margin-top: 32px;
 }

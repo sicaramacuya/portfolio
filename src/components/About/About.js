@@ -4,11 +4,9 @@ function About(props) {
     const {title, description} = props
 
     return (
-    <div id="personal-info-container">
+    <div className="About">
         <h1>{title}</h1>
-        <div id="parragraph-container">
-            <p id="p-1">{description}</p>
-        </div>
+        <p>{description}</p>
     </div>
     )
 }

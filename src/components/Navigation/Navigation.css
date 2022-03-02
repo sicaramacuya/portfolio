@@ -1,28 +1,21 @@
-#navigator {
-    font-weight: 700;
-    font-size: 12px;
-    margin-top: 72px;
-    text-transform: uppercase;
-    display: block;
-  }
+.Navigation {
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 72px;
+  text-transform: uppercase;
+  display: block;
+}
   
-  #ul-nav {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    margin-top: -16px;
-    margin-bottom: -16px;
-  }
+.Navigation > ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: -16px;
+  margin-bottom: -16px;
+}
   
-  li {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-
-  #span-title {
-    display: inline-block;
-    height: 1px;
-    margin-top: -1px;
-    width: 48px;
-  }
+.Navigation > ul > li {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

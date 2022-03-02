@@ -1,4 +1,4 @@
-#left-side-container {
+.Left-Container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,17 +7,4 @@
     position: fixed;
     max-width: 500px;
     padding: 90px 0px 90px 90px;
-  }
-
-  #upper-left-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #projects {
-    margin-top: -96px;
-    padding-top: 88px;
-  }
-  #skills {
-    padding-top: 88px;
-  }
+}

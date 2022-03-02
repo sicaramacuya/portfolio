@@ -18,10 +18,21 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  color: rgb(21, 21, 21);
 }
 
 body {
   overflow-x: hidden;
   background-color: rgb(237, 233, 225);
   margin: 0;
+}
+
+h1, h3, p, ul {
+  margin: 0px;
+  color: rgb(21, 21, 21);
+}
+
+a {
+  color: rgb(21, 21, 21);
+  text-decoration: none;
 }

@@ -5,23 +5,7 @@
     margin-top: 72px;
 }
 
-.contact-span {
-    display: inline-block;
-    height: 1px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: -1px;
-    width: 48px;
-}
-
-  
-a {
-    color: rgb(21, 21, 21);
-    text-decoration: none;
-}
-
-
-img {
+.Contact > img {
     display: block;
     max-width: 100%;
     border-radius: 9999px;
@@ -30,7 +14,7 @@ img {
     width: 50px;
 }
 
-#ul-contact {
+.Contact > ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -38,4 +22,11 @@ img {
     margin-right: -16px;
 }
 
-  
+.Contact span {
+    display: inline-block;
+    height: 1px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: -1px;
+    width: 48px;
+}

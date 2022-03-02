@@ -1,0 +1,21 @@
+h1, h3, p, ul {
+    margin: 0px;
+    color: rgb(21, 21, 21);
+}
+/* h3 -> projects */
+/* ul -> navigator and  bottom-left-container*/
+
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+}
+
+#parragraph-container {
+    line-height: 2;
+}
+
+#p-1 {
+    margin-top: 32px;
+}

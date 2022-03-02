@@ -8,32 +8,10 @@
     max-width: 500px;
     padding: 90px 0px 90px 90px;
   }
-  
+
   #upper-left-container {
     display: flex;
     flex-direction: column;
-  }
-  
-  #navigator {
-    font-weight: 700;
-    font-size: 12px;
-    margin-top: 72px;
-    text-transform: uppercase;
-    display: block;
-  }
-  
-  #ul-nav {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    margin-top: -16px;
-    margin-bottom: -16px;
-  }
-  
-  li {
-    margin-top: 16px;
-    margin-bottom: 16px;
   }
   
   #projects {
@@ -44,32 +22,14 @@
     padding-top: 88px;
   }
   
-  #project-text:hover {
-    color: rgb(184, 184, 184);
-    font-size: 20px;
-    transition: all .25s ease-in-out;
-  }
-  
-  #skills-text:hover {
-    color: rgb(184, 184, 184);
-    font-size: 20px;
-    transition: all .25s ease-in-out;
-  }
-  
-  #contact-text:hover {
-    color: rgb(184, 184, 184);
-    font-size: 20px;
-    transition: all .25s ease-in-out;
-  }
-  
-  span {
+  /* span {
     display: inline-block;
     height: 1px;
     margin-left: 16px;
     margin-right: 16px;
     margin-top: -1px;
     width: 48px;
-  }
+  } */
   
   a {
     color: rgb(21, 21, 21);

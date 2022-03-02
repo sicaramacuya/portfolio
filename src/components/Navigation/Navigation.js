@@ -4,7 +4,7 @@ function Navigation(props) {
     const { titles, hrefs } = props
 
     return (
-        <nav id="navigator">
+    <nav id="navigator">
         <ul id="ul-nav">
             {
                 titles.map((title, index) => (

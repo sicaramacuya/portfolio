@@ -13,7 +13,7 @@ function LeftContainer() {
 
             <Navigation 
             titles={['Projects', 'Skills']}
-            hrefs={['#projects', '#skills']}
+            hrefs={['#Projects', '#Skills']}
             />
 
             <Contact 

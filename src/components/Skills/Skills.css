@@ -1,0 +1,36 @@
+.Skills {
+  padding-top: 88px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -4px;
+  color: rgb(148, 148, 149);
+}
+  
+.skills-articles {
+  flex: none;
+  margin: 4px;
+  min-height: 320px;
+  width: 320px;
+  background-color: rgba(218, 215, 208, 0.776);
+}
+  
+.skills-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  min-height: inherit;
+  padding: 40px;
+  width: 100%;
+}
+  
+.skills-articles:hover {
+  opacity: 40%;
+  transition: all .2s ease-in-out;
+}
+
+.skill {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
